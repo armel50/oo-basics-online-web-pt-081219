@@ -8,6 +8,5 @@ class Book
   end
 end  
 
-# book = Book.new("And Then There Were None")  
 
 
