@@ -1,7 +1,8 @@
 class Book
   def initialize(book_title)
     @book_title = book_title
-  end
-end 
+  end 
+  attr_accessible :title
+end  
 
-Book.new("And Then There Were None")
+Book.new("And Then There Were None") 
