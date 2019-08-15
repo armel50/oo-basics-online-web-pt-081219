@@ -4,7 +4,7 @@ class Book
   end 
   attr_accessor :title, :author, :page_count, :genre
   def turn_page
-    puts "lol"
+    puts "Flipping the page...wow, you read fast!"
   end
 end  
 
