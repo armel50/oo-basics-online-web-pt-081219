@@ -5,4 +5,5 @@ class Book
   attr_accessible :title
 end  
 
-Book.new("And Then There Were None") 
+book = Book.new("And Then There Were None")  
+book.title = "And Then There Were None"
